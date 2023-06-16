@@ -1,33 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-/* Friday for rand*/
+/* Include the necessary header file for the rand() and RAND_MAX functions */
 
-/* Ran function main header */
-/**
- * main - main function
- * No Description:
- * Return: 0
- */
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* Rand function */
-
-	if (n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
-	else
-	{
-		printf("%d is negative\n", n);
-	}
-	return (0);
+       	int n = rand() - RAND_MAX / 2;
+       	if (n > 0) { printf("%d is positive\n", n);
+       	}
+       	else if (n == 0) { printf("%d is zero\n", n);
+       	}
+       	else { printf("%d is negative\n", n);
+       	}
+       	return 0;
 }
