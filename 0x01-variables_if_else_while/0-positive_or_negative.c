@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* Include the necessary header file for the rand() and RAND_MAX functions */
-
+/**
+ * main -Positive anything is better than negative nothing
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
        	int n = rand() - RAND_MAX / 2;
@@ -11,5 +14,5 @@ int main(void)
        	}
        	else { printf("%d is negative\n", n);
        	}
-       	return 0;
+       	return (0);
 }
