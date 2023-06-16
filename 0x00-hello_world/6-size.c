@@ -1,4 +1,4 @@
-/* File: 6-size.c
+/** File: 6-size.c
  * Auth: Brennan D Baraban
  */
 
