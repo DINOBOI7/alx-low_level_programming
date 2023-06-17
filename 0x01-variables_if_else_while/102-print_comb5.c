@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+/* more headers goes there */
+/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
@@ -46,4 +47,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
+}}
