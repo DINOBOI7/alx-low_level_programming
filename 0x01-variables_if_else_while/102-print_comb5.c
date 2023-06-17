@@ -1,6 +1,8 @@
 #include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+#include <stdlib.h>
+#include <time.h>
+
+/* Software is eating the World */
 /**
  * main - Entry point
  *
